@@ -209,9 +209,7 @@ app.post('/api/register', async (req, res) => {
 
 // Define other routes here...
 
-app.listen(5000, () => {
-  console.log(`Server is running on http://localhost:5000`);
-});
+app.listen(5000, console.log(`Server is running on http://localhost:5000`));
 
 
 // const express = require("express")
