@@ -156,7 +156,7 @@ const jwt = require('jsonwebtoken');
 const app = express();
 // const PORT = process.env.PORT || 5000;
 
-app.use(express.json());
+// app.use(express.json());
 app.use(cors());
 
 mongoose.connect('mongodb+srv://premchandumedepalli:MEARNapp@mearnapp.6f9rrhg.mongodb.net/', {
