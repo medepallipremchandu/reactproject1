@@ -1,0 +1,51 @@
+.ol{
+    font-size: 20px;
+    color: #737070;
+  } 
+  .card {
+    background-color: transparent !important;
+    border: none !important;
+  }
+  h3{
+    font-size: 35px;
+    color: aliceblue;
+  }
+  .s1{
+    border-radius: 15px;
+    background-color: rgb(5, 5, 5);
+  } 
+
+  #content1 {
+    padding: 20px;
+    background-color: #040404; /* Light gray background */
+  }
+  
+  .gradient-underline1 {
+    height: 2px;
+    background: linear-gradient(to right, #007bff, #28a745); /* Gradient underline color */
+  }
+  
+  .feature-box-01 {
+    background-color: #211c1c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(34, 34, 34, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .feature-box-01:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon {
+    font-size: 36px;
+    color: #007bff; /* Icon color */
+  }
+  
+  .card-title {
+    color: #007bff; /* Title color */
+  }
+  
+  .card-text {
+    color: #b0b3b6; /* Text color */
+  }

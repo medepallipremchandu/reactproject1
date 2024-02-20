@@ -1,0 +1,59 @@
+p{
+    color: rgb(139, 135, 135);
+  }
+
+.ho{
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ls{
+  /* margin-top: 10px; */
+  margin-left:20px;
+  margin-right:20px;
+  /* margin-bottom: 10px; */
+}
+
+#content1 {
+  overflow-y: scroll; /*Enable vertical scrolling for content*/
+  height: 100vh; /* Full height of the viewport */
+}
+.ls2{
+  font-size: 38px;
+  background: -webkit-linear-gradient(#464646, #fffbfb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}  
+.gradient-underline1::after {
+  background: rgb(173, 252, 151);
+  background: linear-gradient(to right, transparent 0%, rgb(173, 238, 117) 50%, transparent 100%);  
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+}
+.gradient-underline1 {
+  margin-left: auto;
+  padding-bottom: 4px;
+  position: relative;
+  text-decoration: none;
+}
+
+.feature-box-01 {
+  background-color: #272626;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(184, 44, 44, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.feature-box-01:hover {
+  transform: scale(1.05);
+}
+.card {
+  border: 2px solid #007bff; /* Add a 2px solid border with a blue color */
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}

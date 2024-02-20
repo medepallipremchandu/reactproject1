@@ -1,0 +1,50 @@
+/* Container holding the image and the text */
+.container1{
+    position: relative;
+    text-align: left;
+    color: rgb(238, 243, 241);
+  }
+.prem {
+    position: absolute;
+    left: 10%;
+    top: 18%;
+}
+/* Centered text */
+  .righted {
+    position: absolute;
+    top: 30%;
+     left: 45%;
+    text-align: center;
+    bottom: 30%;
+}
+#content1 {
+  overflow-y: scroll; /*Enable vertical scrolling for content*/
+  height: 100vh; /* Full height of the viewport */
+}
+p{
+  color: rgb(139, 135, 135);
+}
+h3{
+  font-size: 25px;
+}
+.em{
+  font-size: 40px;  
+  color: aliceblue;
+}
+.mm{
+  font-size: 40px;  
+  color: aliceblue;
+  text-align: left;
+}
+h1{
+  font-size: 38px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}  
+h4{
+  color:  rgb(139, 135, 135);
+}
+.orange{
+  color: darkkhaki;
+}

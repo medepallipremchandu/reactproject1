@@ -1,0 +1,12 @@
+.gradient-underline::after {
+    background: rgb(173, 252, 151);
+    background: linear-gradient(to right, transparent 0%, rgb(173, 238, 117) 50%, transparent 100%);
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+  .gradient-underline {
+    margin-left: 200px;
+    padding-bottom: 4px;
+  }

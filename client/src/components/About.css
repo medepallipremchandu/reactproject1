@@ -1,0 +1,77 @@
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Hide the browser's default scrollbar */
+    background-color: rgb(14, 9, 9);
+  }
+
+  #container {
+    display: flex;
+  }
+
+  #image {
+    flex: 0 0 auto; /* Do not grow, do not shrink, fixed width */
+    width: 300px; /* Adjust the width as needed */
+    position: fixed;
+    top: 0;
+    left: 10%;
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden;
+  }
+
+  #content {
+    flex: 1; /* Grow to fill remaining space */
+    margin-left: 350px; /* Adjust the margin based on image width + spacing */
+    padding: 20px;
+    overflow-y: scroll; /*Enable vertical scrolling for content*/
+    height: 100vh; /* Full height of the viewport */
+    left:50%;
+  }
+
+  .img1 {
+    width: 100%; /* Make sure the image fills its container */
+    height: 60%;
+    border-radius: 100%;
+  }
+  .p1{
+    color: rgb(228, 234, 239);
+    text-align: left;
+    padding-left: 25%;
+    text-decoration: underline;
+    text-underline-offset: 0.6em;
+  }
+  .p2{
+    color: aliceblue;
+    text-align: left;
+    padding-left: 25%;
+  }
+  .p{
+    color: rgb(139, 135, 135);
+    text-align: left;
+    padding-left: 25%;
+    text-align: justify;
+  }
+  .p3{
+    color: rgb(139, 135, 135);
+    text-align:justify;
+  }
+.p4{
+  padding-right: 33%;
+}
+  .gradient-underline2::after {
+    background: rgb(209, 244, 134);
+    background: linear-gradient(to right, transparent 0%, rgb(177, 241, 127) 50%, transparent 100%);  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+  .gradient-underline2 {
+    margin-left: 22%;
+    padding-bottom: 4px;
+    position: relative;
+    text-decoration: none;
+  }

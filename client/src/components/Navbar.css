@@ -1,0 +1,55 @@
+.gradient-underline::after {
+    background: rgb(173, 252, 151);
+    background: linear-gradient(to right, transparent 0%, rgb(173, 238, 117) 50%, transparent 100%);
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+  .gradient-underline {
+    margin-left: 38%;
+    padding-bottom: 2px;
+  }
+  .logout{
+    color: rgb(148, 150, 152);
+  }
+
+
+
+  /* Navbar.css */
+
+/* Transparent Navbar */
+.navbar {
+  background-color: dark; /* !important is used to override the Bootstrap styles */
+  border: none;
+}
+
+/* Underline effect */
+.navbar-nav .nav-link {
+  position: relative;
+  color: white !important; /* Set the color of the text to white */
+}
+
+.navbar-nav .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff; /* Set the color of the underline */
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/* Active link underline (optional) */
+.navbar-nav .nav-item.active .nav-link::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
