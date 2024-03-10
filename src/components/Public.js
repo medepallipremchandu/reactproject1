@@ -24,7 +24,7 @@ function Public() {
             <Nav.Link onClick={() => navigateTo('/Skills')}>SKILLS</Nav.Link>
             <Nav.Link onClick={() => navigateTo('/Highlights')}>HIGHLIGHTS</Nav.Link>
             <Nav.Link onClick={() => navigateTo('/Portfolio')}>PORTFOLIO</Nav.Link>
-            <Nav.Link onClick={() => navigateTo('/Private')} className="logout">LOGOUT</Nav.Link>
+{/*  <Nav.Link onClick={() => navigateTo('/Private')} className="logout">LOGOUT</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
