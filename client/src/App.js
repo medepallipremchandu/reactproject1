@@ -37,23 +37,23 @@ const App = () => {
           <Route path="/Home" element={<Home />} />          
           <Route
             path="/private"
-            element={<Private />}
+            element={loggedIn ? <Private /> : <Navigate to="/login" />}
           />
           <Route
             path="/about"
-            element={<About />}
+            element={loggedIn ? <About /> : <Navigate to="/login" />}
           />
           <Route
             path="/skills"
-            element={<Skill />}
+            element={loggedIn ? <Skill /> : <Navigate to="/login" />}
           />
           <Route
             path="/Portfolio"
-            element={<Porto />}
+            element={loggedIn ? <Porto /> : <Navigate to="/login" />}
           />
           <Route
             path="/Highlights"
-            element={<High />}
+            element={loggedIn ? <High /> : <Navigate to="/login" />}
           />
           <Route
             path="/login"
