@@ -53,7 +53,7 @@ p{
 }
 .card {
   border: 2px solid #007bff; /* Add a 2px solid border with a blue color */
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
   margin-bottom: 20px;
 }
